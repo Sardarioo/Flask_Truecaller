@@ -42,4 +42,4 @@ def search():
 
     return render_template("index.html", name=phone_name, carrier=phone_carrier)
 
-app.run(host="0.0.0.0",port=8000)
+app.run(host="0.0.0.0",port=0)
